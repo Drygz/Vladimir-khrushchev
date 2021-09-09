@@ -22,7 +22,7 @@ header .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(14, 104, 240);
+    background-color: rgb(1, 4, 10);
     padding: 15px;
 }
 
@@ -62,5 +62,5 @@ footer {
     color: black;
     position: absolute;
     display: flex;
-    
+
 }
