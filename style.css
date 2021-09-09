@@ -11,7 +11,7 @@ header {
 }
 
 header a {
-    color: rgb(2, 2, 2);
+    color: rgb(7, 250, 19);
 }
 
 header a:hover {
@@ -22,7 +22,7 @@ header .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(1, 4, 10);
+    background-color: rgb(1, 7, 0);
     padding: 15px;
 }
 
