@@ -83,7 +83,7 @@ footer .PHbot {
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-    position: fixed;
+    position: static;
     overflow: auto;
   }
   .sidebar a {
@@ -100,3 +100,4 @@ footer .PHbot {
     background-color: #555;
     color: white;
   }
+  
