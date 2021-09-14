@@ -3,74 +3,89 @@
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-  }
-  .wrapper {
+}
+
+.wrapper {
     max-width: 1200px;
     margin: 0 auto;
-  }
-  header {
+}
+
+header {
     width: 100%;
-    color: #fff; 
-  }
-  header .top {
+    color: #fff;
+}
+
+header .top {
     padding: 15px;
-    background-color: rgb(27, 27, 27); 
+    background-color: rgb(27, 27, 27);
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .square {flex-grow: 6;
 }
-  header .info {
+
+.square {
+    flex-grow: 6;
+}
+
+header .info {
     display: block;
-  }
-  .info__phone a {
+}
+
+.info__phone a {
     color: rgb(0, 253, 169);
-  }
-  .menu {
-  
+}
+
+.menu {
+
     width: 100%;
-    
-  }
-  .menu ul{
+
+}
+
+.menu ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
     justify-content: space-between;
-  }
-  .menu ul li {
+}
+
+.menu ul li {
     margin-left: 15px;
-  }
-  .menu ul li:first-child{
+}
+
+.menu ul li:first-child {
     margin-left: 0;
-  }
-  
-  .menu ul li a {
+}
+
+.menu ul li a {
     text-decoration: none;
     color: rgb(255, 196, 0);
     display: block;
     transition: 0.3s ease-in all;
-  }
-  .menu ul li a:hover {
-    color:rgb(166, 255, 1);
+}
+
+.menu ul li a:hover {
+    color: rgb(166, 255, 1);
     transform: scale(1.1);
-  }
+}
+
 footer {
     width: 100%;
     color: rgb(255, 255, 255);
-	height: 80px;
+    height: 80px;
     display: flex;
 }
+
 footer .ftop {
     width: 100%;
     bottom: 0;
     position: absolute;
     margin: 0;
-    background-color: rgb(27, 27, 27); 
+    background-color: rgb(27, 27, 27);
     text-align: justify;
 }
+
 footer .PHbot {
     display: flex;
     text-align: justify;
@@ -79,6 +94,7 @@ footer .PHbot {
     flex-wrap: wrap;
     align-content: center;
 }
+
 .sidebar {
     margin: 0;
     padding: 0;
@@ -86,19 +102,21 @@ footer .PHbot {
     background-color: #f1f1f1;
     position: static;
     overflow: auto;
-  }
-  .sidebar a {
+}
+
+.sidebar a {
     display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
-  }
-  .sidebar a.active {
+}
+
+.sidebar a.active {
     background-color: #4CAF50;
     color: white;
-  }
-  .sidebar a:hover:not(.active) {
+}
+
+.sidebar a:hover:not(.active) {
     background-color: #555;
     color: white;
-  }
-  
+}
