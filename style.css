@@ -15,18 +15,16 @@ header {
     color: #fff;
 }
 
-header .top {
+header .header_top {
     padding: 15px;
     background-color: rgb(27, 27, 27);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.top input {
+
+header .header_top input {
     min-width: 250px;
-}
-.square {
-    flex-grow: 6;
 }
 
 header .info {
@@ -34,7 +32,7 @@ header .info {
 }
 
 .info__phone a {
-    color: rgb(0, 253, 169);
+    color: rgb(88, 88, 88);
 }
 
 .menu {
@@ -62,27 +60,25 @@ header .info {
 
 .menu ul li a {
     text-decoration: none;
-    color: rgb(255, 196, 0);
+    color: rgb(77, 77, 77);
     display: block;
     transition: 0.3s ease-in all;
 }
 
 .menu ul li a:hover {
-    color: rgb(166, 255, 1);
+    color: rgb(255, 0, 0);
     transform: scale(1.1);
 }
 
 footer {
     width: 100%;
     color: rgb(255, 255, 255);
-    height: 80px;
     display: flex;
 }
 
 footer .ftop {
     width: 100%;
     bottom: 0;
-    position: absolute;
     margin: 0;
     background-color: rgb(27, 27, 27);
     text-align: justify;
@@ -91,34 +87,124 @@ footer .ftop {
 footer .PHbot {
     display: flex;
     text-align: justify;
-    color: rgb(0, 253, 169);
+    color: rgb(88, 88, 88);
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
 }
 
 .sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    position: static;
-    overflow: auto;
+    border: 1px solid black;
 }
 
-.sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
+.sidebar__list {
+    list-style: none;
 }
 
-.sidebar a.active {
-    background-color: rgb(0, 253, 169);
+.sidebar__list li {
+    padding: 5px 15px;
+}
+
+.main {
+    display: flex;
+}
+
+.main__left {
+    width: 30%;
+}
+
+.main__right {
+    width: 50%;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    padding: 14px;
+    border: 1px solid #eee;
+}
+
+.info__icon {
+    width: 20%;
+}
+
+.info.active {
+    background-color: black;
     color: white;
 }
 
-.sidebar a:hover:not(.active) {
-    background-color: rgb(88, 88, 88);
+.info__text {
+    width: 40%;
+}
+
+.info__text-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.info__text-description {
+    font-weight: 300;
+}
+
+.slider {
+    display: flex;
+    border: 1px solid #eee;
+    min-height: 200px;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid grey;
+    padding: 15px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card__img {
+    width: 160px;
+    height: 160px;
+    background-color: rgb(27, 27, 27);
+}
+
+.card__title {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.card__price {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.card__btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.card__btn div {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__btn div:nth-child(1) {
+    background-color: black;
     color: white;
+}
+
+.card__btn div:nth-child(2) {
+    background-color: gray;
 }
