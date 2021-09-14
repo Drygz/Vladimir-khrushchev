@@ -22,7 +22,9 @@ header .top {
     justify-content: space-between;
     align-items: center;
 }
-
+.top input {
+    min-width: 250px;
+}
 .square {
     flex-grow: 6;
 }
