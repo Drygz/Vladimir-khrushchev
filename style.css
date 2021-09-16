@@ -139,6 +139,12 @@ header {
     font-weight: 400;
 }
 
+/* slider */
+.slider {
+    border: 1px solid #000;
+    min-height: 200px;
+  }
+  
 /* card-list */
 .card-list {
     display: flex;
