@@ -96,10 +96,6 @@ header {
     border: 1px solid black;
 }
 
-.sidebar__list {
-    list-style: none;
-}
-
 .sidebar__list li {
     padding: 5px 15px;
 }
@@ -144,7 +140,7 @@ header {
     border: 1px solid #000;
     min-height: 200px;
   }
-  
+
 /* card-list */
 .card-list {
     display: flex;
