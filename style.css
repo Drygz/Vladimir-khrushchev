@@ -249,3 +249,35 @@ footer .PHbot {
     flex-wrap: wrap;
     align-content: center;
 }
+
+/*product*/
+.product__info {
+    display: flex;
+}
+
+.product__discription {
+    width: 50%;
+}
+
+.product__discription-title {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.product__discription-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 15px;
+}
+
+.product__discription-prise {
+font-size: 25px;
+font-weight: 600;
+margin-top: 20px;
+}
+
+.product__slider {
+    width: 50%;
+}
