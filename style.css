@@ -93,17 +93,30 @@ header {
 
 /* sidebar */
 .sidebar {
-    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: static;
+    overflow: auto;
 }
 
-.sidebar__list li {
-    padding: 5px 15px;
-}
-
-.sidebar__list ul li a {
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
     text-decoration: none;
-    color: orange;
-} 
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
 
 /* info */
 .info {
