@@ -245,6 +245,109 @@ header {
     background-color: gray;
 }
 
+/*product*/
+.product__info {
+    display: flex;
+}
+
+.product__description {
+    width: 50%;
+    padding: 15px;
+}
+
+.product__description-title {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.product__description-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 15px;
+}
+
+.product__description-prise {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.product__description-sail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.product__description-cards {
+    display: flex;
+    margin-top: 15px;
+}
+
+.product__description-cards div {
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.product__description-cards .visa {
+    color: orange;
+}
+
+.product__description-cards .master {
+    color: red;
+}
+
+.product__description-cartBtn {
+    margin-top: 15px;
+    display: flex;
+}
+
+.product__description-cartBtn .caunt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.product__description-cartBtn .caunt input {
+    max-width: 95px;
+}
+
+.product__description-btn {
+    margin-top: 15px;
+}
+
+.product__slider {
+    width: 50%;
+}
+
+.product__slider-preview {
+    border: 1px solid #000;
+    max-height: 316px;
+    min-height: 200px;
+}
+
+.product__slider-list {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.slider-item {
+    border: 1px solid black;
+    width: 60px;
+    height: 41px;
+}
+
 /*footer*/
 footer {
     width: 100%;
@@ -267,106 +370,4 @@ footer .PHbot {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-}
-
-/*product*/
-.product__info {
-    display: flex;
-}
-
-.product__discription {
-    width: 50%;
-    padding: 15px;
-}
-
-.product__discription-title {
-    font-size: 22px;
-    line-height: 25px;
-}
-
-.product__discription-info {
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 15px;
-}
-
-.product__discription-prise {
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 20px;
-}
-
-.product__discription-sail {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
-}
-
-.product__discription-cards {
-    display: flex;
-    margin-top: 15px;
-}
-
-.product__discription-cards div {
-    border: 1px solid gray;
-    margin-right: 15px;
-    padding: 15px;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.product__discription .visa {
-    color: orange;
-}
-
-.product__discription .master {
-    color: red;
-}
-
-.product__discription-cartBtn {
-    margin-top: 15px;
-    display: flex;
-}
-
-.product__discription-cartBtn .caunt {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
-}
-
-.product__discription-cartBtn .caunt input {
-    max-width: 95px;
-}
-
-.product__discription-btn {
-    margin-top: 15px;
-}
-
-.product__slider {
-    width: 50%;
-}
-
-.product__slider-preview {
-    border: 1px solid black;
-    max-height: 316px;
-    min-height: 200px;
-}
-
-.product__slider-list {
-    display: flex;
-    margin-top: 10px;
-    justify-content: space-between;
-    overflow-x: auto;
-    width:100%;
-}
-
-.slider-item {
-    border: 1px solid black;
-    width: 60px;
-    height: 41px;
 }
