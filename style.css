@@ -446,3 +446,21 @@ footer .PHbot {
     flex-wrap: wrap;
     align-content: center;
 }
+
+.cont__info-top {
+    border: 1px solid black;
+    min-height: 100px;
+    width: 70%;
+    display: flex;
+    margin-left: 100px;
+    
+}
+.karta {
+    border: 1px solid black;
+    min-height: 300px;
+    width: 70%;
+    margin-left: 100px;
+}
+.cont__info {
+    padding-bottom: 5px;
+}
