@@ -464,3 +464,9 @@ footer .PHbot {
 .cont__info {
     padding-bottom: 5px;
 }
+
+.brb {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
