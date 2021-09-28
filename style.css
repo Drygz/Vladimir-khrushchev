@@ -161,8 +161,6 @@ header {
   padding: 15px;
 }
 
-.header__bottom-menu a.active {}
-
 .header__cart {
   background-color: #17ac1a;
   padding: 15px;
@@ -178,23 +176,6 @@ header {
 
 .header__cart #count_cart {
   margin-right: 5px;
-}
-
-/* header end*/
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--text);
-  height: 40px;
-  background-color: rgba(128, 128, 128, 0.226);
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.button.accent {
-  background-color: var(--primary-color);
-  color: #fff;
 }
 
 
@@ -278,6 +259,8 @@ header {
 .info__text-description {
   font-weight: 400;
 }
+
+/*sidebar*/
 .sidebar {
   margin: 0;
   padding: 0;
@@ -303,6 +286,7 @@ header {
   background-color: #555;
   color: white;
 }
+
 /* slider */
 .sliderw {
   height: 350px;
@@ -320,8 +304,9 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
+
 .slide1 {
-  background-image: url(img/6s/iphone6s_gall);
+  background-image: url(img/6s/iphone6p-gold.jpg);
 }
 
 .slide2 {
