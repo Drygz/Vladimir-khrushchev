@@ -297,7 +297,7 @@ header {
 }
 
 .slide1 {
-  background-image: url(img/6s/iphone6s_gallery1_2015.jpeg);
+  background-image: url(img/6s/iphone6s_gall);
 }
 
 .slide2 {
@@ -310,10 +310,6 @@ header {
 
 .slide4 {
   background-image: url(img/6s/iphone6s-plus-rose.jpg);
-}
-
-.slide5 {
-  background-image: url();
 }
 
 .slides {
