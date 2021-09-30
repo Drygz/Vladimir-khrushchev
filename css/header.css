@@ -1,0 +1,40 @@
+.header {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__menu {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    flex-grow: 1;
+}
+
+.header__menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__menu li {
+    margin-right: 20px;
+}
+
+.header__menu li:last-child {
+    margin-right: 0;
+}
+
+.header__menu a {
+    padding: 8px 10px;
+}
+.header__logo {
+    padding-right: 10px;
+    display: flex;
+}
+.header__cart {
+    display: flex;
+    padding-bottom: 5px;
+    align-items: flex-end;
+}
