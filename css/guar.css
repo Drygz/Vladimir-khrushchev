@@ -1,0 +1,30 @@
+.guar {
+    width: 100%;
+}
+.guar-list {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.guar__card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 5px;
+}
+.guar__card-img {
+    padding: 10px;
+}
+.guar__card-title {
+    text-align: center;
+    padding: 10px;
+}
+.guar__card-description {
+    align-items: center;
+    padding: 10px;
+}
+

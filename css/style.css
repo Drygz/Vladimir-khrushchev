@@ -12,12 +12,14 @@
     --sm: 540px;
     --text: black;
     --orange: #FFC3A0;
+    --body: #F5EDE7;
 }
 
 body {
     font-family: var(--font-dm-sans);
     color: black;
     background-color: var(--grey);
+    background-color: var(--body)
 }
 
 .wrapper {
