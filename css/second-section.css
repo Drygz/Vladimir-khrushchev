@@ -1,0 +1,24 @@
+.second-section {
+    width: 100%;
+    display:flex;
+}
+
+.second-section__content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-section__image {
+    width: 50%;
+}
+
+.second-section__image img {
+    display: block;
+    max-width: 50%;
+    height: 50%;
+}
+
+.second-section__info {
+    width: 35%;
+    padding-left: 15px;
+}
