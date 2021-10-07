@@ -50,3 +50,20 @@
     transition: all .1s ease;
     cursor: pointer;
   }
+  .footer__top-btn {
+        display: block;
+        border: 1px solid var(--accent);
+        color: var(--accent);
+        text-decoration: none;
+        padding: 15px 45px;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 3px;
+        border-radius: 25px;
+        text-align: center;
+        position: relative;
+        outline: none;
+        transition: all .1s ease;
+        cursor: pointer;
+      }
