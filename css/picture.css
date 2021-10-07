@@ -1,4 +1,5 @@
 .picture {
+    min-height: 100%;
     margin: auto;
     height: auto;
     object-fit: cover;
