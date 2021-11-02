@@ -53,6 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	btnalert.onclick = function() {
 		if (!event.isTrusted) return;
-		alert('You have no money');
+		alert('hello');
 	  };
 })
